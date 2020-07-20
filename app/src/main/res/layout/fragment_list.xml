@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.list.ListFragment">
+
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#E79CC2"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="0.8">
+            <ImageView
+                android:src="@mipmap/ic_launcher_round"
+                android:background="@android:color/white"
+                android:layout_width="60dp"
+                android:layout_height="60dp"/>
+            <TextView
+                android:text="Juice App"
+                android:textColor="#FFF"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="List Jus"
+                android:textColor="#FFF"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#163A3737"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/jambu"
+                    android:src="@drawable/jusjambu"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:text="Jus Jambu"
+                    android:textAlignment="center"/>
+
+                <ImageButton
+                    android:id="@+id/strawberry"
+                    android:src="@drawable/jusstrawberry"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:text="Jus Strawberry"
+                    android:textAlignment="center"/>
+
+                <ImageButton
+                    android:id="@+id/semangka"
+                    android:src="@drawable/semangka2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:text="Jus Semangka"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <ImageButton
+                    android:id="@+id/melon"
+                    android:src="@drawable/jusmelon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:text="Jus Melon"
+                    android:textAlignment="center"/>
+
+                <ImageButton
+                    android:id="@+id/sirsak"
+                    android:src="@drawable/sirsak"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:text="Jus Sirsak"
+                    android:textAlignment="center"/>
+
+                <ImageButton
+                    android:id="@+id/alpukat"
+                    android:src="@drawable/jusalpukat"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:text="Jus Alpukat"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/naga"
+                    android:src="@drawable/jusnaga"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:text="Jus Buah Naga"
+                    android:textAlignment="center"/>
+
+                <ImageButton
+                    android:id="@+id/tomat"
+                    android:src="@drawable/tomat1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:text="Jus Tomat"
+                    android:textAlignment="center"/>
+
+                <ImageButton
+                    android:id="@+id/wortel"
+                    android:src="@drawable/wortel"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/white"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:text="Jus Wortel"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

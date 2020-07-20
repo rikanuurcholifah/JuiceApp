@@ -1,0 +1,94 @@
+<resources>
+    <!--    Bagian tampilan Navigation-->
+    <string name="app_name">JuiceApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Juice App</string>
+    <string name="nav_header_subtitle">Rika Nuurcholifah</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Logout</string>
+
+    <!--    Bagian Menu-->
+    <string name="menu_login"></string>
+    <string name="menu_home">Home</string>
+    <string name="menu_list">List Jus</string>
+    <string name="menu_pesanan">Data Pesanan</string>
+
+    <!--    Bagian dari isi List Jus-->
+    <string name="jambu">Manfaat Jus Jambu :
+        Meningkatkan Imunitas Tubuh, Melancarkan Saluran Pencernaan,
+        Menyehatkan Mata, Menyehatkan Kulit. </string>
+    <string name="jambu_order_message">Kamu Memesan Jus Jambu</string>
+
+    <string name="semangka">Manfaat Jus Semangka :
+        Manfaat jus semangka bisa dikaitkan dengan mengurangi kemungkinan
+        penyakit jantung, kanker dan tekanan darah tinggi. Minum jus semangka juga bisa jadi mood booster saat bekerja.</string>
+
+    <string name="jeruk">Manfaat Jus Jeruk :
+        Kandungan Vitamin C yang banyak membuat jus jeruk sangat disarankan untuk dikonsumsi
+        mereka yang mengidap sariawan ataupun kulit kering. Minum jus jeruk saat pagi hari
+        dapat meningkatkan imunitas dan daya tahan tubuh selama seharian. Kalau kamu sedang pilek
+        juga sangat disarankan untuk minum jus jeruk.</string>
+
+    <string name="tomat">Manfaat Jus Tomat :
+        Kalau kamu gampang lelah dan butuh tenaga untuk cepat pulih,
+        kamu bisa minum jus tomat. Selain memulihkan tenaga dengan cepat manfaat jus tomat
+        yang lain adalah menyembuhkan sariawan, baik untuk kamu yang sedang menjalankan program diet,
+        antioksidan alami dan baik untuk kulit terutama buat kamu yang bermasalah dengan jerawat.</string>
+
+    <string name="alpukat">Manfaat Jus Alpukat :
+        Menjaga kesehatan rambut, Mencegah penyakit jantung.
+        Menjaga gula darah dan mencegah diabetes.
+        Menurunkan kolesterol.
+        Menjaga kesehatan kardiovaskular atau jantung.
+        Menurunkan berat badan.
+        Menyehatkan kulit.</string>
+
+    <string name="wortel">Manfaat Jus Wortel :
+        Memperkuat penglihatan, Meningkatkan metabolisme, Memperbaiki masalah kulit,
+        Menjaga kolesterol, Mengurangi risiko kanker, Memperkuat fungsi otak </string>
+
+    <string name="sirsak">Manfaat Jus Sirsak :
+        Membersihkan saluran pencernaan, Membantu menyembuhkan nyeri, Meredakan saluran pernapasan,
+    Meningkatkan kekebalan tubuh</string>
+
+    <string name="melon">Manfaat Jus Melon :
+        Mengatasi Kolesterol, Memperkuat Tulang Dan Gigi, Hidrasi Yang Sangat Baik,
+    Baik Untuk Pencernaan, Nutrisi Untuk Kulit, Mendukung Penurunan Berat Badan
+    </string>
+
+    <string name="strawberry">Manfaat Jus Strawberry :
+        <li>Mencegah penuaan dini pada kulit</li>
+        <li>Memperkuat daya tahan tubuh</li> Mengurangi peradangan,
+        Mengurangi risiko terjadinya katarak.</string>
+    <string name="strawberry_order_message">Kamu Memesan Jus Strawberry</string>
+
+    <string name="naga">Manfaat Jus Buah Naga : Kaya akan serat yang baik untuk tubuh,
+        Menyehatkan saluran pencernaan, Meningkatkan daya tahan tubuh.</string>
+    <string name="naga_order_message">Kamu Memesan Jus Buah Naga</string>
+
+    <string name="change_dessert">Change Juice</string>
+    <string name="order_label_text">Order:</string>
+
+    <!--    Bagian Data Pesanan-->
+    <string-array name="jenisjusbuah">
+        <item>Jus Jambu</item>
+        <item>Jus Strawberry</item>
+        <item>Jus Semangka </item>
+        <item>Jus Melon</item>
+        <item>Jus Sirsak</item>
+        <item>Jus Alpukat</item>
+        <item>Jus Buah Naga</item>
+        <item>Jus Tomat</item>
+        <item>Jus Wortel</item>
+
+    </string-array>
+
+    <!--    Bagian Alamat-->
+    <string name="isialamat">Desa Larangan Blok Doblang RT 28 RW 06 Kecamatan Lohbener Kabupaten Indramayu, Jawa Barat </string>
+
+    <string name="button_not_register">Tidak memiliki akun? <font color='red'>Daftar Sekarang</font></string>
+    <string name="after_register">Sudah memiliki akun? <font color='blue'>Login Sekarang</font></string>
+    <string name="batal">Batal</string>
+    <string name="keluar">Keluar</string>
+</resources>

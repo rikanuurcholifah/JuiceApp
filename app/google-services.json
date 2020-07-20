@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "493522663074",
+    "firebase_url": "https://juiceapp-efa4d.firebaseio.com",
+    "project_id": "juiceapp-efa4d",
+    "storage_bucket": "juiceapp-efa4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493522663074:android:5285959355e3c0570ec9fb",
+        "android_client_info": {
+          "package_name": "com.example.juiceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "493522663074-u1slcu7h98blvilih367o9gqiplrupp6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.juiceapp",
+            "certificate_hash": "1ab51cf705d106250bf1e86174b6e6c66b9c22c3"
+          }
+        },
+        {
+          "client_id": "493522663074-l5fvr48e4i773hunr23ajdn8dculqmk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsNZXK6756d3TKWzPkPoQyg1otRWjSzII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "493522663074-l5fvr48e4i773hunr23ajdn8dculqmk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

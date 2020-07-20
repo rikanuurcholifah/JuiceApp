@@ -1,0 +1,2 @@
+rootProject.name='JuiceApp'
+include ':app'
